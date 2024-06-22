@@ -1,0 +1,154 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        StructSpecifier (1)
+          STRUCT
+          OptTag (1)
+            ID: OperandstructDefList
+          LC
+          DefList (3)
+            Def (3)
+              Specifier (3)
+                TYPE: inttructDefList
+              DecList (3)
+                Dec (3)
+                  VarDec (3)
+                    ID: o1tructDefList
+              SEMI
+            DefList (4)
+              Def (4)
+                Specifier (4)
+                  TYPE: inttructDefList
+                DecList (4)
+                  Dec (4)
+                    VarDec (4)
+                      ID: o2tructDefList
+                SEMI
+          RC
+      SEMI
+    ExtDefList (7)
+      ExtDef (7)
+        Specifier (7)
+          TYPE: inttructDefList
+        FunDec (7)
+          ID: addtructDefList
+          LP
+          VarList (7)
+            ParamDec (7)
+              Specifier (7)
+                StructSpecifier (7)
+                  STRUCT
+                  Tag (7)
+                    ID: OperandstructDefList
+              VarDec (7)
+                ID: temptructDefList
+          RP
+        CompSt (8)
+          LC
+          StmtList (9)
+            Stmt (9)
+              RETURN
+              Exp (9)
+                LP
+                Exp (9)
+                  Exp (9)
+                    Exp (9)
+                      ID: temptructDefList
+                    DOT
+                    ID: o1tructDefList
+                  PLUS
+                  Exp (9)
+                    Exp (9)
+                      ID: temptructDefList
+                    DOT
+                    ID: o2tructDefList
+                RP
+              SEMI
+          RC
+      ExtDefList (12)
+        ExtDef (12)
+          Specifier (12)
+            TYPE: inttructDefList
+          FunDec (12)
+            ID: maintructDefList
+            LP
+            RP
+          CompSt (13)
+            LC
+            DefList (14)
+              Def (14)
+                Specifier (14)
+                  TYPE: inttructDefList
+                DecList (14)
+                  Dec (14)
+                    VarDec (14)
+                      ID: ntructDefList
+                SEMI
+              DefList (15)
+                Def (15)
+                  Specifier (15)
+                    StructSpecifier (15)
+                      STRUCT
+                      Tag (15)
+                        ID: OperandstructDefList
+                  DecList (15)
+                    Dec (15)
+                      VarDec (15)
+                        ID: optructDefList
+                  SEMI
+            StmtList (16)
+              Stmt (16)
+                Exp (16)
+                  Exp (16)
+                    Exp (16)
+                      ID: optructDefList
+                    DOT
+                    ID: o1tructDefList
+                  ASSIGNOP
+                  Exp (16)
+                    INT: 1
+                SEMI
+              StmtList (17)
+                Stmt (17)
+                  Exp (17)
+                    Exp (17)
+                      Exp (17)
+                        ID: optructDefList
+                      DOT
+                      ID: o2tructDefList
+                    ASSIGNOP
+                    Exp (17)
+                      INT: 2
+                  SEMI
+                StmtList (18)
+                  Stmt (18)
+                    Exp (18)
+                      Exp (18)
+                        ID: ntructDefList
+                      ASSIGNOP
+                      Exp (18)
+                        ID: addtructDefList
+                        LP
+                        Args (18)
+                          Exp (18)
+                            ID: optructDefList
+                        RP
+                    SEMI
+                  StmtList (19)
+                    Stmt (19)
+                      Exp (19)
+                        ID: writetructDefList
+                        LP
+                        Args (19)
+                          Exp (19)
+                            ID: ntructDefList
+                        RP
+                      SEMI
+                    StmtList (20)
+                      Stmt (20)
+                        RETURN
+                        Exp (20)
+                          INT: 0
+                        SEMI
+            RC
